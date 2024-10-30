@@ -12,6 +12,9 @@
   background-color: #4d0f00;
   overflow: hidden;
   filter: blur(2px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .one {
@@ -42,7 +45,7 @@
   width: 91%;
   height: 28%;
   background-color: #b20403;
-  margin: auto;
+  margin: 0 auto 20px;
   filter: blur(2px);
   box-shadow: 0 0 5px 5px #b20403;
   border-radius: 30px 25px 60px 12px;
